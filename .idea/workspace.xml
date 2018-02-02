@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50c1482f-7286-4da8-b1fc-db35868bf6b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/notification-popover.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/credit-card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dollar-coin-money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gmail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/padlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/planet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/time.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/notification-popover.css" afterPath="$PROJECT_DIR$/css/notification-popover.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,10 +30,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+            <state relative-caret-position="339">
+              <caret line="106" column="57" lean-forward="true" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#div#1;n#div#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2952#2958#0" expanded="true" />
+                <element signature="e#2958#2964#0" expanded="true" />
+                <element signature="e#2964#2970#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +46,8 @@
       <file leaf-file-name="notification-popover.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/notification-popover.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="60" />
+            <state relative-caret-position="373">
+              <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -57,6 +69,9 @@
       <find>notification-popover__content</find>
       <find>notification-popover__control</find>
       <find>notification-popover__unread-counter</find>
+      <find>list-group-item</find>
+      <find>.webui-popover-notification .webui-popover-title</find>
+      <find>list-group-item-text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,6 +131,11 @@
             <path>
               <item name="popover-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="popover-example" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popover-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popover-example" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -130,6 +150,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OSPanel\domains\popover-example\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,25 +237,29 @@
         <state relative-caret-position="933">
           <caret line="8" column="15721" lean-forward="false" selection-start-line="8" selection-start-column="15721" selection-end-line="8" selection-end-column="15721" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+        <state relative-caret-position="339">
+          <caret line="106" column="57" lean-forward="true" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#div#1;n#div#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2952#2958#0" expanded="true" />
+            <element signature="e#2958#2964#0" expanded="true" />
+            <element signature="e#2964#2970#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/notification-popover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="60" />
+        <state relative-caret-position="373">
+          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding />
         </state>
       </provider>

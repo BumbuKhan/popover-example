@@ -1,14 +1,15 @@
 .webui-popover-notification {
     padding: 0;
     border-radius: 3px;
+    border-color: #e0e0e0;
     -webkit-box-shadow: 0px 22px 88px -17px rgba(166, 164, 166, 1);
     -moz-box-shadow: 0px 22px 88px -17px rgba(166, 164, 166, 1);
     box-shadow: 0px 22px 88px -17px rgba(166, 164, 166, 1);
 }
 
 .webui-popover-notification .webui-popover-title {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .webui-popover-notification .webui-popover-content {
@@ -30,6 +31,7 @@
 
 .webui-popover-notification .notification-popover__content .list-group-item-text {
     font-size: 13px;
+    color: #999;
 }
 
 .webui-popover-notification .notification-popover__content .notification-popover__unread-counter {
@@ -48,11 +50,43 @@
 
 .webui-popover-notification .notification-popover__mark-as-read {
     background-color: transparent !important;
-    border: 1px #999 solid;
+    border: 1px dodgerblue solid;
+    color: dodgerblue;
 }
 
 .webui-popover-notification .list-group {
-    /*-webkit-box-shadow: 0px 3px 3px 0px rgba(163, 160, 163, 0.48);
-    -moz-box-shadow: 0px 3px 3px 0px rgba(163, 160, 163, 0.48);
-    box-shadow: 0px 3px 3px 0px rgba(163, 160, 163, 0.48);*/
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(163, 160, 163, 0.28);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(163, 160, 163, 0.28);
+    box-shadow: 0px 2px 5px 0px rgba(163, 160, 163, 0.28);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.webui-popover-notification .list-group a:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.webui-popover-notification .list-group .list-group-item {
+    padding-left: 30px;
+}
+
+.webui-popover-notification .list-group .notification-popover_unread {
+    background: url("../img/unread-dot.png") no-repeat 8px 13px;
+}
+
+.webui-popover-notification .list-group a.notification-popover_unread:hover {
+    background-color: #f5f5f5;
+}
+
+.webui-popover-notification .notification-popover__view-all-btn {
+    color: dodgerblue;
+}
+
+.webui-popover-notification .notification-popover__icon {
+    padding-right: 10px;
+}
+
+.webui-popover-notification .notification-popover__icon-text {
+    padding-left: 5px;
 }
