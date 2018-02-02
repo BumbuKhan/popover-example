@@ -7,10 +7,16 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
+
     <!-- Bootstrap -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/jquery.webui-popover.min.css">
 
+    <link rel="stylesheet" href="css/notification-popover.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,8 +26,96 @@
 </head>
 <body>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <br>
+
+            <!--popover start-->
+            <span>
+                <a href="#" class="js-notification-popover notification-popover__icon">
+                    <i class="far fa-bell" style="font-size: 20px;"></i>
+                </a>
+
+                <div class="webui-popover-content notification-popover__content">
+
+                    <div class="notification-popover__control clearfix">
+                        <span class="notification-popover__unread-counter">2 unread</span>
+                        <button class="btn btn-sm notification-popover__mark-as-read pull-right">Mark all as read</button>
+                    </div>
+
+                    <p class="notification-popover__date">Today</p>
+
+                    <!--a group of notifications start-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">Notifications has been turned on!</h5>
+                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">You have finished discipline</h5>
+                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">List group item heading</h5>
+                            <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit. Ased diam eget risus varius blandit</p>
+                        </a>
+                    </div>
+                    <!--a group of notifications   end-->
+
+                    <p class="notification-popover__date">2 days ago</p>
+
+                    <!--a group of notifications start-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">List group item heading</h5>
+                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+                        </a>
+                    </div>
+                    <!--a group of notifications   end-->
+
+                    <p class="notification-popover__date">16 January</p>
+
+                    <!--a group of notifications start-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">Notifications has been turned on!</h5>
+                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading">List group item heading</h5>
+                            <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit. Ased diam eget risus varius blandit</p>
+                        </a>
+                    </div>
+                    <!--a group of notifications   end-->
+
+                    <!--view all start-->
+                    <a href="#" class="btn-block text-center">View all</a>
+                    <!--view all   end-->
+                </div>
+            </span>
+            <!--popover   end-->
+
+            <script>
+                $(document).ready(function () {
+                    /* popover start */
+                    $('.js-notification-popover').webuiPopover({
+                        placement: 'bottom',
+                        animation: 'pop',
+                        width: 400,
+                        style: 'notification',
+                        padding: true,
+                        title: 'Notifications',
+                        offsetTop: 5
+                    });
+                    /* popover   end */
+                });
+            </script>
+
+        </div>
+    </div>
+</div>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/jquery.webui-popover.min.js"></script>
